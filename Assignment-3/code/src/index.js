@@ -4,9 +4,29 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 
+
+// creating employee object
+const employee={
+  Backword_arrow:"<",
+  Forword_arrow:">",
+
+  name:"Alan Ford",
+  id:"00005152",
+  Appointement:"9:00 (24-05-2016)",
+  Email:"alan.form@email.nl",
+  Phone:"+31123456789",
+  Status:"In Progress",
+  Door:"Mark",
+  Time:"10:30 (25-05-2016)",
+  ProfileImg :"https://www.w3schools.com/howto/img_avatar.png",
+  EmpRole : "Boltaart Bosbessen",
+  info:"Overheerlijke Boltaart met Bosbesseb uit de keuken van de Bijenkorf"
+};
+
+
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <App employee={employee}/>
   </React.StrictMode>,
   document.getElementById('root')
 );
