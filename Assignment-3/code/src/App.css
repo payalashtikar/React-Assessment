@@ -1,0 +1,157 @@
+.App{
+    /* width: 50%; */
+    /* width: 100%; */
+    width: auto;
+    height: 100%;
+    margin: auto;
+    border: 1px solid rgb(240, 223, 223); 
+    margin: 5px;
+    background-color: whitesmoke;
+}
+
+
+/* ======HEADER PART CSS====== */
+.EmployeeName{
+    font-weight: bold;
+}
+.Header > div{
+    display:inline-block;
+    width: 33.333%;
+    vertical-align: middle;
+}
+
+.HeaderContent{
+    text-align: center;
+}
+
+.PrintBtn{
+    text-align: right;
+}
+
+.backPressBtn{
+    height: 20px;
+    font-size: 20px;
+    line-height: 20px;
+    transform: scaleY(1.5);
+    position: absolute;
+    top: 4px;
+    left: 10px;
+    color: grey
+}
+
+.PrintBtn button{
+    background-color: black;
+    color: white;
+    outline: none;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;margin-right: 10px;
+}
+
+/* ======CUSTOMER-INFO CSS====== */
+.Customer_Info{
+    margin: 20px 20px;
+    border:1px solid #eee;
+    width: calc(100% - 40px);
+    /* border: 5px black; */
+}
+
+.CustomerDetailWrapper{
+    margin: 5px;
+    font-size: 14px;
+}
+
+span.CustomerDetailName {
+    font-weight: bold;
+}
+
+
+div{
+    display: block;
+}
+
+/* ======ORDER-INFO CSS====== */
+.Order_Info{
+    border:1px solid #eee;
+    width: calc(100% - 40px);
+    margin: 20px 20px;
+    background-color: #ddd;
+    /* width: 33.33%; */
+}
+
+.OrderDetail{
+    margin: 5px;
+    font-size: 14px;
+}
+.OrderDetailName{
+    font-weight: bold;
+}
+.OrderDetailWrapper{
+    margin: 5px;
+    font-size: 14px;
+    display: inline-block;
+    /* width: calc(50%-10px); */
+    width: 30%;
+    margin-left: 18px;
+    /* background-color: rgb(236, 231, 231); */
+}
+
+.BulletIcon{
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background-color: black;
+    display: inline-block;
+}
+/* ======PRODUCT-LIST-INFO CSS====== */
+.ProductInfoBox{
+    height: 15px;
+    width: 15px;
+    border:1px solid rgb(129, 127, 127);
+    margin-left: 25px;
+}
+.EmployeeImg{
+    width: 40%;
+}
+.EmployeeImg img{
+    width: 20%;
+    margin: 10px;
+    width: calc(100%-30px);
+    vertical-align: middle;
+}
+.Product_List > div{
+    display: inline-block;
+}
+.ProductInfoBoxWrapper{
+    width: 8%;
+}
+.ProductDetail{
+    left: 0;
+    width: 49%;
+    margin-right: 10px;
+    /* margin-left: 24%; */
+    /* background-color: plum; */
+    /* top: auto; */
+    /* vertical-align: top; */
+
+}
+.EmployeeRole{
+    font-weight: bold;
+}
+.ForwardBtn{
+    font-size: 20px;
+    transform: scaleY(1.5);
+    right: 10px;
+    margin-bottom: 0;
+    /* margin-right: 5px; */
+    color: gray;
+    bottom: 0;
+    /* margin-left: 15px; */
+}
+
+.Product_List{
+    margin: 20px 20px;
+    border:1px solid #eee;
+    width: calc(100% - 40px);
+    /* border: 5px black; */
+}
